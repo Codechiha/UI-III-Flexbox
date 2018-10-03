@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+button{
+  background: white;
+  margin-top: 15px;
+  padding: 10px 44px;
+  font-size: 11px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+/* header */
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav {
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+}
+
+.services-header-img{
+  margin: 15px 0;
+}
+
+.services-main{
+  display: flex;
+}
+
+.services-main-content{
+  padding-bottom: 25px;
+  line-height: 20px;
+  border-bottom: 1px solid black;
+}
+
+.services-main-content h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.services-boxes{
+  line-height: 22px;
+}
+
+.services-boxes .boxes-top-two{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.services-boxes .boxes-top-two .box-top-left{
+  padding: 15px;
+  border: 1px solid black;
+  background-color: #f4f3f4;
+  margin-right: 20px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.services-boxes .boxes-top-two .box-top-right{
+  padding: 15px;
+  border: 1px solid black;
+  background-color: #f4f3f4;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.services-boxes .boxes-mid-two{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.services-boxes .boxes-mid-two .box-mid-left{
+  padding: 15px;
+  border: 1px solid black;
+  background-color: #f4f3f4;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.services-boxes .boxes-mid-two .box-mid-right{
+  padding: 15px;
+  border: 1px solid black;
+  background-color: #f4f3f4;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.services-boxes .boxes-bottom-two{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.services-boxes .boxes-bottom-two .box-bottom-left{
+  padding: 15px;
+  border: 1px solid black;
+  background-color: #f4f3f4;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.services-boxes .boxes-bottom-two .box-bottom-right{
+  padding: 15px;
+  border: 1px solid black;
+  background-color: #f4f3f4;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.services-footer{
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid black;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.services-footer .facts{
+  margin-right: 20px;
+  line-height: 20px;
+  padding-right: 30px;
+}
+
+.services-footer .facts ul{
+  padding-top: 20px;
+  line-height: 30px;
+  list-style-type: square;
+  text-align: left;
+  padding-left: 20px;
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 20px;
+}
